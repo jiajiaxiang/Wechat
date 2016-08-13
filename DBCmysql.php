@@ -66,7 +66,7 @@ function insert($userId,$dvId){
 }
 
 function delete($userId,$dvId){
-	$sql = "delete from serDevice(UserId,DeviceId) values('$userId','$dvId')";
+	$sql = "delete from UserDevice(UserId,DeviceId) values('$userId','$dvId')";
 	mysql_query($sql)or die("数据库连接错误");
  
 	$mark  = mysql_affected_rows();//返回影响行数

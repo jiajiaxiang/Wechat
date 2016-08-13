@@ -112,12 +112,12 @@ class Menu{
 					array(
 						'name'=>urlencode('添加设备'),
 						'type'=>'view',
-						'url'=>'http://www.kwstar.com/weixin_wk/adddevice.php'
+						'url'=>'http://www.kwstar.com/weixin_wk/test.php'
 						),
 					array(
 						'name'=>urlencode('设备联网'),
 						'type'=>'view',
-						'url'=>'http://www.baidu.com'
+						'url'=>'http://www.kwstar.com/weixin_wk/test.php'
 						),
 					array(
 						'name'=>urlencode('常见问题'),

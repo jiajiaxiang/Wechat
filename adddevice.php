@@ -48,11 +48,11 @@ include "getcode.php";
             display: table-cell;
             text-align: center;
         }
-
 		.btns { width:60px; height:40px; no-repeat left top;background-color:#3758e3;color:#FFF;border-radius:5px 
 		} 
 		.ys1{font-size: 20px;
 		}
+
 </style>
 </head>
 <body >
@@ -68,7 +68,6 @@ include "getcode.php";
 			</form>
  		</div>
     </div>
-
 
 </body>
 </html>
